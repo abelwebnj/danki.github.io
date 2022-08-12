@@ -3,3 +3,38 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: hsl(216, 50%, 16%);
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+}
+.eq_container {
+  border: 2px solid hsla(215, 65%, 26%, 0.685);
+  background-color:hsla(215, 65%, 26%, 0.685);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 400px 400px;
+  height: 85vh;
+  width: 25vw;
+  border-radius: 15px;
+  margin-left: 500px;
+}.img {
+  width: 85%;
+  height: 10%;
+  margin-left: 23px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+p {
+  color: hsl(215, 54%, 60%);
+  font-size: 18px;
+  margin-left: 20px;
+}
