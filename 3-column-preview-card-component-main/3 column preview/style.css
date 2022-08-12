@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: Lexend Deca, sans-serif;
+}
+.main_container {
+  display: flex;
+  margin: 100px 100px;
+  border: solid 2px red;
+  height: 70vh;
+  width: 75vw;
+}
+.container1 {
+  background-color: orange;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container2 {
+  background-color: rgb(21, 197, 194);
+}
+.container3 {
+  background-color: rgb(25, 148, 119);
+}

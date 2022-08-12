@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #444;
+}
+.container {
+  border: solid 2px rgb(109, 100, 100);
+  margin: 325px 525px;
+  padding: 50px;
+  background-color: rgb(109, 100, 100);
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  border-radius: 15px;
+}
+h1 {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.buttons {
+  margin-top: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buttons>.incre {
+  background-color: #444;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: solid 2px #444;
+  color: white;
+  cursor: pointer;
+}
+.incre:hover {
+  background-color: rgb(109, 100, 100);
+}
+.incre:active {
+  opacity: 0.5;
+}
+.buttons>.reset {
+  color: white;
+  border-radius: 5px;
+  background-color: #444;
+  height: 30px;
+  width: 60px;
+  border: solid 2px #444;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: rgb(109, 100, 100);
+}
+.reset:active {
+  opacity: 0.5;
+}
+.buttons>.decre {
+  background-color: #444;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: solid 2px #444;
+  color: white;
+  cursor: pointer;
+}
+.decre:hover {
+  background-color: rgb(109, 100, 100);
+}
+.decre:active {
+  opacity: 0.5;
+}
